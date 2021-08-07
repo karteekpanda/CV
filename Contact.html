@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title>
+</head>
+<body>
+    <!-- <h3>Contact Information</h3>
+    <ul>
+        <li>Phone No : 7660800247</li>
+        <li>Email : Karteek.panda@gmail.com</li>
+        <li>Location : Hyderabad</li>
+    </ul> -->
+    <table cellspacing="20">
+        <thead>
+            <tr>
+                <th> Info Id </th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <body>
+            <tr>
+                <td>Phone No</td>
+                <td>7660800247</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>karteek.panda@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Hyderabad</td>
+            </tr>
+        </body>
+    </table>
+
+    <h3>Please Enter your Contact</h3>
+   <form method="POST" action="mailto:karteek.panda@gmail.com" enctype="text/plain">
+       <label>Full Name</label>
+       <input name="Name" type="text">
+       <br>
+       <label>Email Adress </label>
+       <input name="Email" type="email"> <br>
+       <textarea name="textarea"></textarea>
+       <input name="Message" type="submit"></input>
+   </form>
+</body>
+</html>
